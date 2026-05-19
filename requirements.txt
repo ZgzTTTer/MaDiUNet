@@ -1,0 +1,22 @@
+numpy==1.26.4
+pillow==10.4.0
+pytorch-fid==0.3.0
+pytorch-msssim==1.0.0
+PyWavelets==1.8.0
+scikit-image==0.24.0
+scikit-learn==1.5.2
+scipy==1.14.1
+torch==2.4.1
+torchvision==0.19.1
+lpips==0.1.4
+
+
+装Mamba-ssm过程：
+conda create -n Mamba python==3.9.21
+conda activate Mamba
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.8 -c pytorch -c nvidia
+conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit cuda-nvcc
+nvcc --version
+应该出现Cuda compilation tools, release 11.8, V11.8.89
+conda install -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge "gxx_linux-64=11.*" "gcc_linux-64=11.*" -y
+export MAMBA_FORCE_BUILD=TRUE
