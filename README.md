@@ -3,7 +3,7 @@
 **MaDiUNet (Mamba-Enhanced UNet Denoising Model)** is a diffusion-based framework for cross-modal CT-MRI medical image translation. Built upon a conditional difference-domain diffusion formulation, MaDiUNet focuses on learning the residual information between the conditioned and target images, reducing the modality gap and improving synthesis stability. To enhance global anatomical modeling, the framework integrates Mamba-based Selective State-Space Modules into the UNet denoiser, enabling efficient long-range dependency modeling with linear complexity. Experiments on multiple CT-MRI datasets demonstrate that MaDiUNet improves image fidelity, preserves structural details, and achieves a better balance between generation quality and computational efficiency.
 
 The overview of MaDiUNet:
-![overview](static/images/overviewFramework2.jpg)
+![overview](static/images/Framework2.jpg)
 
 The diffusion process:
 ![overview](static/images/process.png)
