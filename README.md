@@ -25,8 +25,8 @@ The diffusion process:
 ### Setup
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/midisec/Med-D3CG.git
-cd Med-D3CG
+git clone https://github.com/ZgzTTTer/MaDiUNet.git
+cd MaDiUNet
 pip install -r requirements.txt
 ```
 
